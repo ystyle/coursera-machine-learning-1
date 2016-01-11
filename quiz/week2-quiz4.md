@@ -15,12 +15,12 @@ Suppose m=4 students have taken some class, and the class had a midterm exam and
 |69|4761|78|
 
 You'd like to use polynomial regression to predict a student's final exam score from their midterm exam score. Concretely, suppose you want to fit a model of the form hθ(x)=θ0+θ1x1+θ2x2, where x1 is the midterm score and x2 is (midterm score)2. Further, you plan to use both feature scaling (dividing by the "max-min", or range, of a feature) and mean normalization. 
-What is the normalized feature x<sub>(3)</sub><sup>1</sup>? (Hint: midterm = 89, final = 96 is training example 1.) Please enter your answer in the text box below. If applicable, please provide at least two digits after the decimal place.
+What is the normalized feature x<sub>1</sub><sup>(3)</sup>? (Hint: midterm = 89, final = 96 is training example 1.) Please enter your answer in the text box below. If applicable, please provide at least two digits after the decimal place.
 ### Answer
 
 The mean of x1 is 81 and the range is 94−69=25 
 
-So x<sub>(3)</sub><sup>1</sup> is 94−81/25=0.52.
+So x<sub>1</sub><sup>(3)</sup> is 94−81/25=0.52.
 
 
 (see week2_quiz4.m octave file)
