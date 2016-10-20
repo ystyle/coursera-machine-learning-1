@@ -13,9 +13,9 @@ A computer program is said to learn from experience E with respect to some task 
 **E** is The process of the algorithm examining a large amount of historical weather data.
 
 * The weather prediction task.
-* The probability of it correctly predicting a future date's weather. 
-* **The process of the algorithm examining a large amount of historical weather data.**
 * None of these.
+* **The probability of it correctly predicting a future date's weather.**
+* The process of the algorithm examining a large amount of historical weather data.
 
 ---
 
@@ -25,14 +25,14 @@ Suppose you are working on weather prediction, and your weather station makes on
 
 ### Answer
 
-* Regression
 * **Classification**
+* Regression
 
 ---
 
 ## Question 3
 
-Suppose you are working on stock market prediction. You would like to predict whether the US Dollar will go up against the Euro tomorrow (i.e., whether a dollar will be worth more euros tomorrow than it is worth today). Would you treat this as a classification or a regression problem?
+Suppose you are working on stock market prediction, Typically tens of millions of shares of Microsoft stock are traded(i.e., bought/sold) each day. You would like to predict the number of Microsoft shares that will be traded tomorrow. Would you treat this as a classification or a regression problem?
 
 ### Answer
 
@@ -47,10 +47,10 @@ Some of the problems below are best addressed using a supervised learning algori
 
 ### Answer
 
-* **Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).**
+* **Given genetic (DNA) data from a person, predict the odds of him/her developing diabetes over the next 10 years.**
 * Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
-* Given data on how 1000 medical patients respond to an experimental drug (such as effectiveness of the treatment, side effects, etc.), discover whether there are different categories or "types" of patients in terms of how they respond to the drug, and if so what these categories are.
 * **Examine the statistics of two football teams, and predicting which team will win tomorrow's match (given historical data of teams' wins/losses to learn from).**
+* Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
 
 ---
 
@@ -60,7 +60,7 @@ Which of these is a reasonable definition of machine learning?
 
 ### Answer
 
-* **Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
 * Machine learning is the science of programming computers.
+* **Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
 * Machine learning means from labeled data.
 * Machine learning is the field of allowing robots to act intelligently.
